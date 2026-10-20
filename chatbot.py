@@ -11,6 +11,8 @@ def get_response(user_input):
         return "I'm fine, thanks!"
     elif text == "what is your name":
         return "I'm a simple chatbot."
+    elif text == "Whats up?":
+        return "Nothing just chating !"
     elif text in ("bye", "goodbye", "exit", "quit"):
         return "Goodbye!"
     else:
@@ -32,3 +34,5 @@ def chat():
 
 if __name__ == "__main__":
     chat()
+
+#Rushabh Hatipkar
